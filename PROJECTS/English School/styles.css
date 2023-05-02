@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 .container-external {
     font-family: 'Nunito Sans', sans-serif;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -15,9 +20,11 @@ html {
 
 .content-hero {
     max-width: 1024px;
-    margin: 0 auto;
-    
+    margin: 0 auto;       
 }
+
+
+
 
 .flex-container {
     display: flex;
@@ -38,6 +45,8 @@ html {
 .box-navigation {
     margin-top: 50px;
     margin-left: 20px;
+
+    
 }
 
 .phone {
@@ -91,7 +100,7 @@ html {
 }
     
 .school-info {
-    max-width: auto;       
+    max-width: auto;          
 }
 
 .content-info {
@@ -109,6 +118,8 @@ html {
     display: flex;
     gap: 50px;
     justify-content: center;
+    width: 100%;
+
 }
 
 .block-icon {
@@ -122,6 +133,7 @@ html {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
+    
 }
 
 .frame-icon {    
@@ -152,8 +164,7 @@ html {
 
 .group-info { 
     display: flex;     
-    margin-top: 50px;
-            
+    margin-top: 50px;            
 }
 
 
@@ -277,11 +288,14 @@ input:focus {
 
 .subscriptions-container {
     max-width: auto;
+
 }
 
 .subscriptions-content {
     max-width: 1024px;
     margin: 0 auto;
+
+    
 }
 
 .subscriptions-title {
@@ -294,6 +308,7 @@ input:focus {
     display: flex;
     gap: 50px;
     justify-content: center;
+
 }
 
 .subscription-block {
@@ -308,6 +323,8 @@ input:focus {
     margin: 10px;
     box-sizing: border-box;
     margin-bottom: 100px;
+
+    
 }
 
 .subscription-title {
@@ -440,7 +457,111 @@ html {
     background-color: var(--replacement-color);
 }
 
+@media (max-width: 600px) {
+    .container-external {       
+        width: 600px;
+        margin: 0 auto;
+    }
 
+    .header-hero {
+        font-size: 40px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    
+
+    .flex-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 90%;    
+    }
+
+    
+
+    .group-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 30px;
+        width: 90%;
+        margin: 0 auto;        
+    }
+
+    .text-info {
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    
+    .record-form {        
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;        
+    }
+
+    
+    .form {
+        width: 100%;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;                      
+        margin: 0 auto;
+
+    }
+
+    .review-name {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+
+    .review-text {
+        margin: 0 auto;
+        text-align: left;
+        flex-wrap: wrap;
+        max-width: 90%;
+                
+    }
+
+    .block-icon { 
+        width: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    
+
+    .subscriptions-flex {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+           
+    }
+
+    .subscription-block {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: auto;
+        text-align: center;
+        width: 90%;
+    }
+
+    .flex-container-icon {
+        display: flex;
+        flex-direction: column;
+        
+    }    
+}
 
 
 

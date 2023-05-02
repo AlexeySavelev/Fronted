@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .block {
     width: 1000px;
     height: 400px;
