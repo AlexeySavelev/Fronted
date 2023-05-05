@@ -34,9 +34,10 @@ html {
 
 .Dento-Plus {
     color: #fafafa;
-    padding-top: 10px;
+    padding-top: 15px;
     font-weight: 700;
     font-size: 26px;
+
 }
 
 .block-navigation {
@@ -61,11 +62,11 @@ html {
 }
 
 .header-hero {
-    max-width: 50%;
-    font-size: 24px;
+    max-width: 60%;
+    font-size: 45px;
     font-weight: 700;
     padding-top: 130px;
-    line-height: 50px;    
+        
 }
 
 .colortext {
@@ -550,7 +551,7 @@ html {
     .image-adres {
         display: flex;
         flex-direction: column;
-        height: 950px;
+        height: 900px;
     }
 
     .image-clinic {
@@ -558,6 +559,5 @@ html {
         flex-direction: column;
         height: 600px; 
     }
-
     
 }

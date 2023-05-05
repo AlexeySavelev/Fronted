@@ -30,7 +30,7 @@ html {
 
 .Dento-Plus {
     color: #fafafa;
-    padding-top: 10px;
+    padding-top: 15px;
     font-weight: 700;
     font-size: 26px;
 }
@@ -55,12 +55,10 @@ html {
 }
 
 .header-hero {
-    max-width: 50%;
-    font-size: 24px;
+    max-width: 60%;
+    font-size: 45px;
     font-weight: 700;
-    padding-top: 130px;
-    line-height: 50px;
-    
+    padding-top: 130px;   
 }
 
 .colortext {
@@ -451,6 +449,10 @@ html {
     .triangle-right {
         border: 30px solid transparent; border-top: 30px solid;
         margin-top: 20px;
+    }
+
+    .text-servis {
+        top: 150px;
     }
 
 }
