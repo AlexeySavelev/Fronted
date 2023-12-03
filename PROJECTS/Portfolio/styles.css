@@ -136,7 +136,6 @@ html {
     margin-left: 550px;
     margin-top: 50px;
     width: 150px;
-    
 }
 
 .list2 {   
@@ -171,7 +170,6 @@ html {
     height: 150px;
     background-color: rgb(217, 228, 228);
     border-radius: 10px;
-    margin-top: 50px;
     margin-right: 20px;
 }
 
@@ -180,7 +178,6 @@ html {
     height: 150px;
     background-color: rgb(217, 228, 228);
     border-radius: 10px;
-    margin-top: 50px;
 }
 
 .project3 {
@@ -188,18 +185,20 @@ html {
     height: 150px;
     background-color: rgb(217, 228, 228);
     border-radius: 10px;
-    margin-top: 50px;
     margin-left: 20px;
 }
 
 .flex3 {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 750px;
 }
 
 .text1 {
     display: inline-block;
-    margin-left: 375px;
+    margin-left: 470px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
