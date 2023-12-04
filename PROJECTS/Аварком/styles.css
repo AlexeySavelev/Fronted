@@ -39,6 +39,7 @@
 
 .logo {
     width: 8%;
+    height: 8%;
 }
 
 .block-text {
@@ -306,7 +307,7 @@
     }
 
     .block-futer1{
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .text{
@@ -318,7 +319,9 @@
     }
 
     .phone {
-        font-size: 85%;
+        font-size: 50%;
+        line-height: 12px;
+        
     }
 
     .flex-navigation{
@@ -329,5 +332,6 @@
         justify-content: space-evenly;
     }
 
+    
     
 }
