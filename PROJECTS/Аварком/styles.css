@@ -260,7 +260,7 @@
     padding-top: 3%;
     line-height: 26px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1c1b1b;
+    color: #262525;
 }
 
 .flex-block1 {
@@ -322,18 +322,16 @@
     }
 
     .block-futer1 {
-        font-size: 16px;    
+        font-size: 18px;         
     }
 
     .text {
-        font-size: 14px;
+        font-size: 14px;    
     }
 
     .colortext {
         font-size: 16px;
     }
-
-    
 
     .flex-navigation {
         justify-content: space-evenly;
@@ -358,5 +356,13 @@
     
     .fa-solid {
         width: 7px;
+    }
+
+    .image-content {
+        width: 95%;
+    }
+
+    .frame {
+        width: 95%;
     }
 }
